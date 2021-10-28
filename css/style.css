@@ -1,0 +1,98 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:700');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: Open Sans;
+}
+
+h1, h2, h3, h4 {
+  font-family: Poppins;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Custom design below! */
+.banner {
+  background-image: url("../images/background.png");
+  background-size: cover;
+  color: white;
+  height: 550px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 20px;
+}
+
+.btn-apply {
+  padding-top: 20px;
+  background-color: #1CDD87;
+  padding: 17px 36px;
+  border-radius: 31px;
+  color: white;
+  font-size: medium;
+}
+
+.banner-p {
+  opacity: 0.7;
+  font-size: large;
+  margin-bottom: 35px;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.card-container {
+  width: 900px;
+  margin: auto;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.card img {
+  height: 100px;
+}
+
+.card {
+    padding-top: 20px;
+    width: 200px;
+    box-shadow: 0 0 5px grey;
+    text-align: center;
+    padding-bottom: 13px;
+}
+
+.card h3 {
+  font-size: medium;
+}
+
+.card p {
+  color: grey;
+  font-weight: 100;
+}
+
+.footer {
+  background-color: #2C2B2B;
+  padding: 60px;
+  text-align: center;
+}
+
+.footer a {
+  font-size: 35px;
+  color: #1CDD87;
+}
+
+.footer p {
+  font-size: medium;
+  color: grey;
+}
